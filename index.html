@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <nav>
+        <div class="logo">
+            <a href="index.html">Gabrielle Oh</a>
+        </div>
+    </nav>
+</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi! I’m a designer and coder who enjoys creating websites and other things that deal with anything art related.</p>
+    </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Photo Gallery</title>
+        <style>
+            /* Gallery Container */
+            .gallery {
+                display: grid;
+                grid-template-columns: 2fr 1fr; /* Left: Big photo, Right: Two smaller photos */
+                grid-gap: 10px; /* Space between photos */
+                justify-content: center; /* Center the gallery */
+                align-items: center; /* Align content vertically */
+                max-width: 800px; /* Limit the gallery width */
+                margin: 20px auto; /* Center gallery in the page */
+            }
+    
+            /* Big Photo */
+            .big-photo {
+                grid-row: span 2; /* Make it span two rows */
+                height: 100%; /* Ensure it matches the height of the two smaller photos */
+            }
+    
+            /* Smaller Photos */
+            .small-photo {
+                height: 100%; /* Ensure photos fill the available space */
+                object-fit: cover; /* Ensure images look good without distortion */
+            }
+    
+            /* Ensure all photos are responsive */
+            img {
+                width: 100%; /* Full width of the container */
+                height: auto; /* Maintain aspect ratio */
+                border-radius: 8px; /* Optional: Add rounded corners */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="gallery">
+            <!-- Big photo -->
+            <img src="peru.png" alt="Big Photo" class="big-photo">
+            <!-- Small photos -->
+            <img src="group.png" alt="Small Photo 1" class="small-photo">
+            <img src="beach.png" alt="Small Photo 2" class="small-photo">
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+  
+ 

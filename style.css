@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+.hero, .about, .portfolio, .contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about h2, .portfolio h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+input, textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6f61;
+}
+
+.resume-section {
+    margin: 30px 0;
+    text-align: left;
+}
+
+.resume-section h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list li {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 360px;
+    height: auto;
+    border-radius: 70%; /* Optional, if you want a circular photo */
+    margin-right: 30px; /* Space between the image and text */
+}
+
+.about-text {
+    flex: 1; /* Takes up the remaining space */
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; /* Logo on left, navigation in center */
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+/* Centering the navigation */
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    color: #ff6f61;
+}
+
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+.image-button {
+    width: 500px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.2s; /* Smooth effect */
+}
+
+.image-button:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+}
+
